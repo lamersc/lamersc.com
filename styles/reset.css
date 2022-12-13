@@ -1,17 +1,39 @@
 /* reset css */
 * {
-  all: unset;
+    all: unset;
 }
 
-/* fix basic tags */
-head {
-  display: none;
-}
+/*basic tag configuration*/
+
 html {
-  height: 100%;
+    /*
+    - set standard font size for rem scaling
+    - set default font
+    > (https://developer.mozilla.org/en-US/docs/Web/CSS/font-size#rems)
+    */
+    height: 100%;
+    font-size: 16px;
+    font-family: Lexend;
+    text-align: center;
+}
+head {
+    display: none;
+}
+header {
+    display: block;
 }
 body {
-  display: block;
-  width: 100%;
-  height: 100%;
+    display: block;
+    background-color: #f9fafb;
+    width: 100%;
+    height: 100%;
+}
+a:link,
+a:hover,
+a:focus,
+a:visited {
+    color: #004CFF;
+}
+a:hover { 
+    color: #00c; 
 }
