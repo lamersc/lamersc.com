@@ -3,12 +3,21 @@
       font-size: 2rem;
     }
     header h2 {
-        font-size: .9rem;
+        font-size: .90rem;
     }
     header nav {
-      font-size: 1.25rem;
+      font-size: 1.20rem;
     }
-    p {
-      font-size: 1rem;
+    main {
+        width: 350px;
+    }
+    main h2 {
+        font-size: 1.50rem;
+    }
+    main h3 {
+        font-size: 1.05rem;
+    }
+    main p, main ul li {
+        font-size: 1rem;
     }
 }

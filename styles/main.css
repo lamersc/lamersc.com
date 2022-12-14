@@ -1,3 +1,8 @@
+/*fix element positioning*/
+header, main {
+    position: relative;
+    z-index: 2;
+}
 /*title sizing*/
 header h1 {
     display: block;
@@ -5,15 +10,14 @@ header h1 {
     margin-top: 35px;
 }
 header h2 {
-    display: block;
     font-size: 1.25rem;
     text-decoration: underline;
 }
 /*navigation formatting*/
 header nav {
     display: block;
-    font-size: 1.5rem;
-    font-weight :bold;
+    font-size: 1.50rem;
+    font-weight: bold;
     margin-top: 20px;
 }
 header nav #current {
@@ -21,4 +25,39 @@ header nav #current {
     border-radius: 10px;
     background-color: #FFBF00;
     color: black;
+}
+/*faq panel layout*/
+main {
+    display: block;
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+    border-top: 10px solid black;
+    width: 600px;
+    height: 100%;
+}
+main section {
+    display: block;
+    margin-top: 17.50px;
+}
+main h2 {
+    display: block;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+main h3 {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.30rem;
+    text-decoration: underline;
+}
+main p, main ul li {
+    display: block;
+    font-size: 1.10rem;
+}
+main ul li:before {
+    content: "🌟 ";
+}
+main mark {
+    background-color:rgb(255, 215, 0, .75);
 }
